@@ -11,7 +11,17 @@ url: "https://JibbyGeorge-DB.github.io"
 baseurl: "" # leave empty for user/organization pages
 author:
   name: "Jibby George"
-  email: ""
+  avatar: "/assets/images/profile.jpg"
+  bio: "Cloud Consultant | Azure Solutions Architect | AI & Infrastructure"
+  location: "Australia"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/JibbyGeorge-DB"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com"
+
 
 # Theme / appearance
 theme: minima
@@ -22,6 +32,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 # Pagination (if you add an index or blog listing)
 paginate: 5
