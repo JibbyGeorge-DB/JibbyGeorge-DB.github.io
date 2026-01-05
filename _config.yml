@@ -1,14 +1,15 @@
 lsi: false
 safe: true
-source: .
 incremental: false
 
-# Site metadata
 title: "Jibby George"
-email: ""
-description: "Personal blog"
+description: "Cloud Consultant | Azure | AI Infrastructure"
 url: "https://JibbyGeorge-DB.github.io"
-baseurl: "" # leave empty for user/organization pages
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "aqua"
+
 author:
   name: "Jibby George"
   avatar: "/assets/images/profile.jpg"
@@ -22,31 +23,13 @@ author:
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com"
 
-
-# Theme / appearance
-theme: minima
-# Alternatively you can use a remote theme:
-# remote_theme: "pages-themes/minimal@v0.2.0"
-
-# Plugins (supported on GitHub Pages: jekyll-feed, jekyll-seo-tag, etc.)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
 
-# Pagination (if you add an index or blog listing)
-paginate: 5
-
-# Permalinks for posts
-permalink: /:categories/:year/:month/:day/:title/
-
-# Syntax highlighting
 highlighter: rouge
 
-gist:
-  noscript: false
-
 kramdown:
-  math_engine: mathjax
   syntax_highlighter: rouge
