@@ -12,7 +12,7 @@ minimal_mistakes_skin: "sunrise"
 
 author:
   name: "Jibby George"
-  avatar: "assets/images/profile.JPG"
+  avatar: "/assets/images/profile.JPG"
   bio: "Cloud Consultant | Azure Solutions Architect | AI & Infrastructure"
   location: "Australia"
   links:
