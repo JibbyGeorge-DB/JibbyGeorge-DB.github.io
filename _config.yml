@@ -8,7 +8,7 @@ url: "https://JibbyGeorge-DB.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "aqua"
+minimal_mistakes_skin: "sunrise"
 
 author:
   name: "Jibby George"
