@@ -1,2 +1,0 @@
-# JibbyGeorge
-My Learning Journey
