@@ -1,2 +1,2 @@
-# JibbyGeorge-DB.github.io
+# JibbyGeorge
 My Learning Journey
